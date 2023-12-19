@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".fragments.AddFragment">
+
+    <LinearLayout
+        android:id="@+id/addPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/add_post"
+      android:layout_margin="5dp"
+        />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/add_post"
+            android:textSize="16sp"
+            android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginStart="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:id="@+id/uploadReel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/reel"
+           android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/upload_reel"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
